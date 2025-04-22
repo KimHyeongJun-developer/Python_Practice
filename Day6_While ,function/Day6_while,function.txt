@@ -6,3 +6,4 @@ def 함수이름() :
 while 반복문
 while something_is_true : 에서, 값이 거짓이 될 때까지 코드를 반복함.
 
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%201&url=worlds%2Ftutorial_en%2Fhurdle1.json
