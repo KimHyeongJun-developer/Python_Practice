@@ -1,0 +1,44 @@
+1. 
+키값쌍으로 구성되어 있움
+리스트는 대괄호 안에 들어있고, 딕셔너리는 중괄호 안에 들어감.
+키로 값에 접근이가능함.
+{"name" : "kim hyeongjun", "age": "25" }
+
+2. 
+딕셔너리를 맨 위에 여는 중괄호로 시작하고, 모든 항목은 한번 들여쓰기를 하는것이 관례적이다.
+그리고 마지막 줄에 들여쓰기 없이 중괄호를 닫는다.
+person = {
+	"name" : "kim hyeongjun"
+	"age" : 25
+}
+
+3. 
+딕셔너리를 키로 접근할 때, 대괄호로 접근한다.
+person["name"] = "kim hyeongjun"
+
+4. 
+colours = {
+    "apple": "red", 
+    "pear": "green", 
+    "banana": "yellow"
+}
+라는 딕셔너리가 있을 때, for루프를 사용하게 되면 키값에 접근한다.
+
+for i in colours :
+	print(i)
+는 i가 키에 접근한다.
+apple
+pear
+banana
+
+for i in colours :
+	print(colours[i])
+는 i가 키에 접근하고, colours의 값에 접근할 수 있다.
+red
+green
+yellow
+
+5.
+네스팅 : 리스트와 딕셔너리를 서로 중첩하는것 다른 딕셔너리 안에 중첩된 리스트와 딕셔너리를 말함.
+
+6. 파이썬 console창을 초기화시키려면, os를 import하고, os.system("clear")
