@@ -1,0 +1,10 @@
+파이썬에서는
+if블록, while for 반복문 내에서 들여쓰기된 코드는 지역변수로 판단되지 않는다.
+함수내에서 선언된 변수만이 지역변수로 판단된다.
+
+global 전역변수 : 함수 낸에서 전역변수를 참조할 수 있게 해준다.
+하지만 이방법은 추천되지 않는다. 차라리 return으로 값을 반환하는게 더 효과적인 코딩방법.
+
+random.random() : 0~1 사이 실수난수
+random.randint(start,stop) : start 이상 stop 이하
+randrange(low high, step) : low이상 high이하 범위에서 step만큼 더한 범위내의 정수생성(등차수열)
